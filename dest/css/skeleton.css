@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -204,8 +205,8 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: blue; }
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+  color: #2d2d2d; }
 
 a {
   color: #1eaedb; }
@@ -235,11 +236,12 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #000; }
 
 h1 {
-  font-size: 8.0rem;
-  line-height: 1.2;
+  font-size: 10.0rem;
+  line-height: 1;
   letter-spacing: -.1rem; }
 
 h2 {
@@ -269,7 +271,7 @@ h6 {
 
 @media (min-width: 550px) {
   h1 {
-    font-size: 5.0rem; }
+    font-size: 14.0rem; }
   h2 {
     font-size: 4.2rem; }
   h3 {
@@ -634,3 +636,15 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
+
+.footer {
+  padding: 40px 0; }
+
+.icon-link {
+  position: relative; }
+
+.icon-link svg {
+  position: absolute; }
+
+.icon-link a, .icon-link span {
+  margin-left: 30px; }
