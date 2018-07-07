@@ -50,35 +50,11 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 - It's a starting point, not a UI framework
 - ~~No compiling or installing...just vanilla CSS~~
 
+## How it's used on Matt Clark's website
 
-## Browser support
+1. Edit files from the src directory
+1. Run grunt (you may need to add a --force option for some unkown reason)
+1. scp the files to your docker server `scp index.html ec2-user@clark-clan-docker-aws:static-files`
+1. copy the files into the docker image `docker cp index.html staticfiles_httpd_1:/usr/local/apache2/htdocs`
 
-- Chrome latest
-- Firefox latest
-- Opera latest
-- Safari latest
-- IE latest
-
-The above list is non-exhaustive. Skeleton works perfectly with almost all older versions of the browsers above, though IE certainly has large degradation prior to IE9.
-
-
-## License
-
-All parts of Skeleton-sass are free to use and abuse under the [open-source MIT license](http://opensource.org/licenses/mit-license.php).
-
-
-## Colophon
-
-Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and designed with [Sketch](http://bohemiancoding.com/sketch). The typeface [Raleway](http://www.google.com/fonts/specimen/Raleway) was created by [Matt McInerney](http://matt.cc/) and [Pablo Impallari](http://www.impallari.com/). Code highlighting by Google's [Prettify library](https://code.google.com/p/google-code-prettify/). Icons in the header of the documentation are all derivative work of icons from [The Noun Project](thenounproject.com). [Feather](http://thenounproject.com/term/feather/22073) by Zach VanDeHey, [Pen](http://thenounproject.com/term/pen/21163) (with cap) by Ed Harrison, [Pen](http://thenounproject.com/term/pen/32847) (with clicker) by Matthew Hall, and [Watch](http://thenounproject.com/term/watch/48015) by Julien Deveaux.
-
-
-## Acknowledgement
-
-Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
-
-Skeleton-Sass was created by [Seth Coelen](http://sethcoelen.com) for a better Skeleton.
-
-<a href='https://ko-fi.com?i=2446A87JJ08CZ' target='_blank'>
-<img style='border:0px;width:100px;' src='https://az743702.vo.msecnd.net/cdn/btn1.png' border='0' alt='Buy me a coffee at ko-fi.com' />
-</a> 
-
+DONE!
