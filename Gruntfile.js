@@ -6,7 +6,7 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    "dest/css/skeleton.css": "src/scss/skeleton.scss"
+                    "./css/skeleton.css": "src/scss/skeleton.scss"
                 }
             }
         },
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
               threshold: '15KB'
             },
             files: {
-              'dest/index.html': 'src/index.html'
+              './index.html': 'src/index.html'
             }
           }
         },
