@@ -54,7 +54,6 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 
 1. Edit files from the src directory
 1. Run grunt (you may need to add a --force option for some unkown reason)
-1. scp the files to your docker server `scp index.html ec2-user@clark-clan-docker-aws:static-files`
-1. copy the files into the docker image `docker cp index.html staticfiles_httpd_1:/usr/local/apache2/htdocs`
+1. Do something to update gh-pages
 
 DONE!
